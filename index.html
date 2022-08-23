@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="calc__display-part">
+            <h2>Calcolatrice</h2>
+            <div class="calc__entered-text--div">
+                <input type="checkbox" name="" id="clear">
+                <p class="entered-text">
+                    <input type="checkbox" name="" id="one">
+                    <span class="one">1</span>
+                    <input type="checkbox" name="" id="two">
+                    <span class="two">2</span>
+                    <input type="checkbox" name="" id="three">
+                    <span class="three">3</span>
+                    <input type="checkbox" name="" id="four">
+                    <span class="four">4</span>
+                    <input type="checkbox" name="" id="five">
+                    <span class="five">5</span>
+                    <input type="checkbox" name="" id="six">
+                    <span class="six">6</span>
+                    <input type="checkbox" name="" id="seven">
+                    <span class="seven">7</span>
+                    <input type="checkbox" name="" id="eight">
+                    <span class="eight">8</span>
+                    <input type="checkbox" name="" id="nine">
+                    <span class="nine">9</span>
+                    <input type="checkbox" name="" id="zero">
+                    <span class="zero">0</span>
+                </p>
+            </div>
+        </div>
+        <input type="checkbox" name="" id="buttons">
+        <div class="button--div">
+            <label for="buttons">
+                <div class="line-btn"></div>
+            </label>
+        </div>
+        <div class="calc__btns-part">
+            <div class="numbers--wrapper">
+                <!-- row 1 -->
+                <label for="clear" class="num clear--div">
+                    <p class="clear-text">C</p>
+                </label>
+                <label for="one" class="num"><img src="delete 1.png" alt=""></label>
+                <label for="precent" class="num">%</label>
+                <label for="slash" class="function">/</label>
+
+                <!-- row 2 -->
+                <label for="seven" class="num">
+                    <p class="num">7</p>
+                </label>
+                <label for="eight" class="num">8</label>
+                <label for="nine" class="num">9</label>
+                <label for="" class="function">x</label>
+
+                <!-- row 3 -->
+                <label for="four" class="num">
+                    <p class="num">4</p>
+                </label>
+                <label for="five" class="num">5</label>
+                <label for="six" class="num">6</label>
+                <label for="" class="function">-</label>
+
+                <!-- row 4 -->
+                <label for="one" class="num">
+                    <p class="num">1</p>
+                </label>
+                <label for="two" class="num">2</label>
+                <label for="three" class="num">3</label>
+                <label for="" class="function">+</label>
+
+                <!-- row 5 -->
+                <label for="" class="num  clear--div">
+                    <p class="fraction">cos/log</p>
+                </label>
+                <label for="zero" class="num">0</label>
+                <label for="" class="num  clear--div">,</label>
+                <label for="" class="equal">=</label>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
